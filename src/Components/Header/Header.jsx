@@ -1,19 +1,9 @@
-
-import styled from 'styled-components';
-
-const ImagemNino = styled.img`
-    width: 300px;
-    height:300px;
-`
-
-const TituloPrincipal = styled.h1`
-    
-`
-
+import './header.css';
+import logo from "../../Favico/android-chrome-192x192.png"
 export default function Header() {
     return(
-        <div>
-            <TituloPrincipal>Interruptor da casa</TituloPrincipal>
+        <div className="header-container">
+            <img src={logo} alt="Logo" className='img-header' />
         </div>
 
     )
