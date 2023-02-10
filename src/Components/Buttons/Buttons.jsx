@@ -8,16 +8,21 @@ export default function Button() {
 
     return(
         <div className="div-button">
-            <div className="button-individual">
-                <button onClick={()=> {mandaMSG(topic,'Liga rele')}}>Liga quarto</button>
-                <button onClick={()=> {mandaMSG(topic, 'Desliga rele')}}>Desliga quarto</button>
-            </div>
+                <div className="button-individual">
+                    <button onClick={()=> {mandaMSG(topic,'Liga rele')}}>👫🏻 💡</button>
+                    <button onClick={()=> {mandaMSG(topic, 'Desliga rele')}}>👫🏻</button>
+                </div>
             
-            <div className="button-individual">
-                <button onClick={()=> {mandaMSG((topic + '1'),'Liga rele')}}>Liga quarto PC</button>
-                <button onClick={()=> {mandaMSG(topic + '1', 'Desliga rele')}}>Desliga quarto PC</button>
-            </div>
+                <div className="button-individual">
+                    <button onClick={()=> {mandaMSG((topic + '1'),'Liga rele')}}>🖥 💡</button>
+                    <button onClick={()=> {mandaMSG(topic + '1', 'Desliga rele')}}>🖥</button>
+                </div>
+                <div className="button-individual">
+                    <button onClick={()=> {mandaMSG((topic + '12'),'Liga rele')}}>😴 💡</button>
+                    <button onClick={()=> {mandaMSG(topic + '12', 'Desliga rele')}}>😴</button>
+                </div>
             
         </div>
+        
     )
 }

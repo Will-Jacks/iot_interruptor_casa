@@ -4,3 +4,15 @@
     align-items: center;
     padding-top: 50px;
 }
+
+.titulo-principal {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat','sans-serif';
+}
+
+.img-header {
+    width: 100px;
+}
