@@ -7,8 +7,8 @@ function App() {
   return(
     <div className="App">
       <Header />
-        <div className="bagulho">
-          <Button> Liga quarto</Button>
+        <div className="container-buttons">
+          <Button/>
         </div>
     </div>
   )

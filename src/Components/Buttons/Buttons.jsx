@@ -18,8 +18,8 @@ export default function Button() {
                     <button onClick={()=> {mandaMSG(topic + '1', 'Desliga rele')}}>🖥</button>
                 </div>
                 <div className="button-individual">
-                    <button onClick={()=> {mandaMSG((topic + '12'),'Liga rele')}}>😴 💡</button>
-                    <button onClick={()=> {mandaMSG(topic + '12', 'Desliga rele')}}>😴</button>
+                    <button onClick={()=> {mandaMSG((topic + '12'),'Liga rele')}}>🛋️ 💡</button>
+                    <button onClick={()=> {mandaMSG(topic + '12', 'Desliga rele')}}>🛋️</button>
                 </div>
             
         </div>
