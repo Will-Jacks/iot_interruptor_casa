@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.styled-button {
+    width:170px;
+    height:100px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 1s;
+    color: white;
+
+}
+
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-lista { 
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.each-li {
+    list-style: circle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 10px;
+    
+    width: 175px;
+    margin: 5px;
+}
+.styled-button:hover {
+    border-color: #646cff;
+    background-color: black;
+}
+
+.lista-botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    /* margin-top: 100px; */
+    border: 1px solid green;
+    list-style: none;
+    width: 300px;
+    height: 700px;
+}
+
+.lista-botoes > li {
+    display: flex;
+    color: red;
+}
+
+/* .button-individual {
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+} */

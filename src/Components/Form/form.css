@@ -1,0 +1,51 @@
+.button-form-state {
+    font-size: 1rem;
+    width: 15vw;
+    height: 5vh;
+}
+
+.container-form {
+    margin: 10px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form > label {
+    margin-left: 10px;
+}
+
+.form > input {
+    display: flex;
+    height: 30px;
+    width: 75%;
+    align-self: center;
+    padding: 2px;
+    
+}
+
+.form > button {
+    display: flex;
+    height: 40px;
+    width: 30vw;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: border-color 1s;
+    background-color: #1a1a1a;
+    font-size: 1rem;
+    color: white;
+}
+
+.form > button:hover {
+    border-color: #646cff;
+    background-color: black;
+    cursor: pointer;
+    
+}
