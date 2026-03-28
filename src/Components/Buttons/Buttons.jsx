@@ -12,12 +12,12 @@ export default function Button() {
   return (
     <div className="div-button">
       <button
-        className={isOn ? "inactive" : "active"}
+        className={isOn ? "active" : "inactive"}
         onClick={() => {
           mandaMSG(topic, isOn ? "Desligar luz" : "Ligar luz");
         }}
       >
-        <span>{isOn ? "Desligado" : "Ligado"}</span>
+        <span>{isOn ? "Ligado" : "Desligado"}</span>
         <div style={{ fontSize: "10px", opacity: 0.7 }}>
           Clique para alternar
         </div>
